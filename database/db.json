@@ -1,0 +1,104 @@
+{
+  "materias": [
+    {
+      "id": 1,
+      "sigla": "SIS-100",
+      "enplanestudio": false,
+      "nombre": "Programacion I "
+    },
+    {
+      "id": 2,
+      "sigla": "MAT-100",
+      "enplanestudio": true,
+      "nombre": "Algebra I"
+    },
+    {
+      "id": 3,
+      "sigla": "FIS-100",
+      "enplanestudio": true,
+      "nombre": "Fisica I"
+    },
+    {
+      "sigla": "CPA-107",
+      "nombre": "Contabilidad",
+      "enplanestudio": true,
+      "id": 4
+    },
+    {
+      "sigla": "SIS-101",
+      "nombre": "Programacion II",
+      "enplanestudio": true,
+      "id": 5
+    },
+    {
+      "sigla": "MAT 101",
+      "nombre": "Calculo I",
+      "enplanestudio": false,
+      "id": 6
+    },
+    {
+      "sigla": "SIS-103",
+      "nombre": "Programacion III",
+      "enplanestudio": false,
+      "id": 7
+    },
+    {
+      "sigla": "FIS-101",
+      "nombre": "FIsica II",
+      "enplanestudio": false,
+      "id": 8
+    }
+  ],
+  "semestres": [
+    {
+      "nombre": "Primer Semestre",
+      "id": 1
+    },
+    {
+      "nombre": "Segundo Semestre",
+      "id": 2
+    },
+    {
+      "nombre": "Tercer Semestre",
+      "id": 3
+    },
+    {
+      "nombre": "Cuarto Semestre",
+      "id": 4
+    }
+  ],
+  "planestudios": [
+    {
+      "totalHorasPractica": 10,
+      "totalHorasTeorica": 50,
+      "totalHorasLaboratorio": 30,
+      "materiaId": 4,
+      "semestreId": 1,
+      "id": 2
+    },
+    {
+      "totalHorasPractica": 100,
+      "totalHorasTeorica": 40,
+      "totalHorasLaboratorio": 30,
+      "materiaId": 2,
+      "semestreId": 1,
+      "id": 4
+    },
+    {
+      "totalHorasPractica": 100,
+      "totalHorasTeorica": 50,
+      "totalHorasLaboratorio": 30,
+      "materiaId": 3,
+      "semestreId": 1,
+      "id": 5
+    },
+    {
+      "totalHorasPractica": 40,
+      "totalHorasTeorica": 400,
+      "totalHorasLaboratorio": 45,
+      "materiaId": 5,
+      "semestreId": 2,
+      "id": 6
+    }
+  ]
+}
